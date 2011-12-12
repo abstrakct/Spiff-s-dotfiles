@@ -1,0 +1,25 @@
+"2.1 (created: 2009/05/21 13:13:06)
+
+source /home/rolf/.pentadactyl/color/zenburn.penta
+
+nmap gr gT
+nmap < H
+nmap > L
+nmap ø :
+nmap <Left> <C-x>
+nmap <Right> <C-a>
+nmap ge <C-S-e>
+
+command -nargs=* g open google <args>
+set passkeys+='mail\.google\.com':c/jkhnpouelxsfra#`[]z?\*nrtgidIU+-=<Tab><Return>
+
+set runtimepath=/home/rolf/.pentadactyl
+" source! /home/rolf/.vimperatorrc.local
+
+set visualbell
+" set wildoptions=auto
+
+set guioptions=BbCs
+set verbose=0
+
+" vim: set ft=vim:

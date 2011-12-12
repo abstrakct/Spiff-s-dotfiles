@@ -1,0 +1,9 @@
+#!/bin/sh
+cd /home/rolf
+cp .zshrc .vimrc .xinitrc .xmonad/xmonad.hs .pentadactylrc .config/spiffdotfiles
+cp -r .vim .config/spiffdotfiles
+cp -r bin .config/spiffdotfiles
+
+git commit -a -m "update - $(Date "+%F %R")"
+echo "Recorded repository contents, created commit message"
+echo "Now please push this to github manually...."

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#sudo /etc/rc.d/rpcbind start
+#sudo /etc/rc.d/nfs-common start
+#sudo mount -t nfs4 10.0.0.12:/ /home/rolf/terrapin
+
+sudo sshfs rolf:10.0.0.12:/home/rolf /home/rolf/terrapin -p 72
