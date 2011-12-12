@@ -93,16 +93,12 @@ alias ....="cd ../../.."
 #alias c3="cal -3m"
 alias cal="cal -m"
 #alias chat=weechat-curses
-alias beersmith="wine /home/rolf/wine/beersmith/BeerSmith.exe"
 alias df="df -h"
 alias diff=colordiff
 alias el=elinks
 alias flexget='nocorrect flexget'
-#alias futurama="echo && curl -Is slashdot.org | sed -ne '/^X-[FBL]/s/^X-//p' && echo"
-#alias goleia="sudo mount -v -t nfs4 10.0.0.23:/ /mnt/leia"
 alias fuck="wget -qO - rage.thewaffleshop.net"
 alias grep="grep --color=always"
-alias jackardour="jackd -R -dalsa -Phw:2,0 -r48000 -p128 -n2 -D -Chw:2,1"
 alias ls='ls --color=auto -hF --group-directories-first --time-style=+"%Y-%m-%d %H:%M"' 
 alias l='ls -l'
 alias la='ls -la'
@@ -110,7 +106,6 @@ alias lo=locate
 alias m="cd /home/rolf/TheVault/musikk"
 alias mv="mv -v"
 alias nano="nano -w"
-alias netre="sudo /etc/rc.d/network restart"
 alias p1="vlc http://lyd.nrk.no/nrk_radio_p1_ostlandssendingen_mp3_h &"
 alias p2="vlc http://lyd.nrk.no/nrk_radio_p2_mp3_h &"
 alias pac='sudo pacman'
@@ -120,11 +115,7 @@ alias psg="ps aux | grep"
 alias rc="sudo rc.d"
 #alias reload="source ~/.bashrc"
 alias t=todo.sh
-alias tv="cd /TheVault/teve/teve"
-alias tx="transmission-remote --auth rolf:torrenT -l"
 alias txa="tx | grep Down"
-alias txstop="sudo /etc/rc.d/transmissiond stop"
-alias txstart="sudo /etc/rc.d/transmissiond start"
 alias vl="/usr/share/vim/vim73/macros/less.sh"
 alias x=startx
 
